@@ -1,10 +1,64 @@
-body{
+@font-face {
+  font-family: Nunito_Sans;
+  src: url(Nunito_Sans/static/NunitoSans_7pt-ExtraBold.ttf);
+}
 
-  margin:50px ;
+
+main{
+
+background-color:rgb(230, 230, 230);
 }
 
 
 h1{
 
   text-align: center;
+  font-size: xx-large;
+}
+
+#sous_titre{
+
+  text-align: center;
+
+}
+#photo {
+  margin-left: 22%;
+  position: relative;
+}
+
+#description{
+
+  text-align: center;
+
+}
+
+.Photo{
+
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h3{
+
+  text-align: center;
+
+}
+ol{
+
+  text-align: justify;
+ margin-left: 35%;
+ margin-right: 35%;
+}
+
+.italique {
+ text-align: center;
+ margin-left: 40%;
+ margin-right: 40%;
+}
+
+h2{
+
+text-align: center;
+
 }
